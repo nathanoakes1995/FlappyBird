@@ -15,7 +15,7 @@ namespace FlappyBird
 		public static void Main (string[] args)
 		{
 			Initialize ();
-
+			
 			while (true) {
 				SystemEvents.CheckEvents ();
 				Update ();
@@ -27,6 +27,7 @@ namespace FlappyBird
 		{
 			// Set up the graphics system
 			graphics = new GraphicsContext ();
+			
 		}
 
 		public static void Update ()

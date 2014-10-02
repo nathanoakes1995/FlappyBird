@@ -1,7 +1,8 @@
 using System;
 struct Vector2
 {
-	int x, y;
+	int x;
+	int y;
 };
 
 namespace FlappyBird
@@ -10,7 +11,8 @@ namespace FlappyBird
 	{
 		public Player ()
 		{
-			Vector2 position = new Vector2(50,50);
+			Vector2 position;
+			position = new Vector2(50,50);
 			
 		}
 		
